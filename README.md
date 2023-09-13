@@ -19,11 +19,11 @@ simple next.js page with a couple of checkboxes. Meant to show next.js skills.
 
 ## Color theme
 
-- I exclusively used colors from the theme in tailwind.config.ts those colors can be changed to change the theme for the app (color names have to remain)
-
+- I based the color theme on the crossbuilders webpage. The Theme can be changed by editing the colors in the theme section of tailwind.config.js (The color names have to remain the same).
+  
 ## Responsivness
 
-- responsiveness has been implemented and tested for alldevices that are available in the chromium dev tools except the galaxy folds outside screen
+- responsiveness has been implemented and tested for all devices that are available in the chromium dev tools except the galaxy folds outside screen
 
 ## Project status
 
