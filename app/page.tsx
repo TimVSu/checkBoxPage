@@ -39,11 +39,11 @@ const Home = () => {
       <div className='grid grid-cols-2 gap-2 px-12 lg:px-24 py-4'>
         <div className="flex items-center pl-2 bg-blue border-2 border-blue text-white rounded hover:border-yellow">
           <button id="select-button" onClick={() => selectAll()} name="select-button" className="w-4 h-4 rounded" />
-          <label htmlFor="select-button" className="w-full py-4 ml-2 text-base lg:text-lg">select all</label>
+          <label htmlFor="select-button" className="w-full py-4 ml-2 text-base lg:text-lg flex items-center justify-center">select all</label>
         </div>
         <div className="flex items-center pl-2 bg-blue border-2 border-blue text-white rounded hover:border-yellow">
           <button id="deselect-button" onClick={() => deselectAll()} name="deselect-button" className="w-4 h-4 rounded" />
-          <label htmlFor="deselect-button" className="w-full py-4 ml-2 text-base lg:text-lg font-medium">deselect all</label>
+          <label htmlFor="deselect-button" className="w-full py-4 ml-2 text-base lg:text-lg font-medium flex items-center justify-center">deselect all</label>
         </div>
       </div>
       <div className='border-blue bg-white flex border-2 font-bold text-blue p-4 items-center justify-center mx-10 rounded text-lg lg:text-4xl'>

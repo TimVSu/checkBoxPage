@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='bg-white'>
-      <header className='bg-white pt-24 px-4 flex text-gray text-6xl h-24 items-center justify-center font-bold'>
+      <header className='bg-white pt-24 px-4 flex text-gray text-4xl md:text-6xl h-24 items-center justify-center font-bold'>
         crossbuilders challenge
       </header>
       {children}</body>
